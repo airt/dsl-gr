@@ -1,4 +1,4 @@
-package wheels.airt.dsl.gr
+package wheels.dsl.gr
 
 import org.scalatest._
 

@@ -1,9 +1,9 @@
-package wheels.airt.dsl
+package wheels.dsl
 
 package object gr {
 
-  import wheels.airt.dsl.gr.env._
-  import wheels.airt.dsl.gr.fn._
+  import gr.env._
+  import gr.fn._
 
   implicit object implicitLangEnv extends LangEnv
 

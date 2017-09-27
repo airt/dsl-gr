@@ -6,7 +6,7 @@
 ## usage
 
 ```scala
-import wheels.airt.dsl.gr._
+import wheels.dsl.gr._
 
 sourceSets {
   main {

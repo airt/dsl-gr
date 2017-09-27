@@ -1,4 +1,4 @@
-package wheels.airt.dsl.gr
+package wheels.dsl.gr
 
 package object env {
 
@@ -66,8 +66,8 @@ package object env {
   }
 
   case class GlobalEnvContent(
-    sourceSetsEnv: SourceSetsEnv = new SourceSetsEnv,
-    repositoriesEnv: RepositoriesEnv = new RepositoriesEnv,
+      sourceSetsEnv: SourceSetsEnv = new SourceSetsEnv,
+      repositoriesEnv: RepositoriesEnv = new RepositoriesEnv,
   )
 
   class GlobalEnv extends EnvLike {

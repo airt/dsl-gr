@@ -1,6 +1,6 @@
-package wheels.airt.dsl.gr
+package wheels.dsl.gr
 
-import wheels.airt.dsl.gr.env._
+import env._
 
 package object fn {
 
