@@ -1,7 +1,6 @@
 package wheels.airt.dsl.gr.env
 
-trait EnvLike {
-  self =>
+trait EnvLike { self =>
 
   type Env
   type EnvContent
